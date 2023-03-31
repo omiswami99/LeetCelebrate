@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCelebrate",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*/submissions/"],
+      "js": ["content.js"]
+    }
+  ]
+}
